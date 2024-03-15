@@ -118,22 +118,7 @@
     color: white;
 }
 
-.main_page img{
-    height: 250px;
-    border-radius: 15px;
-    margin: 22px;
-}
 
-.main_page{
-    padding-top: 7px;
-    padding-bottom: 6px;
-    padding-left: 60px;
-    background-color: rgb(45, 169, 45);
-}
-
-.main_page_2{
-    margin-left: 255px;
-}
 
 .drop_content a:hover {
     background-color: #ddd;
