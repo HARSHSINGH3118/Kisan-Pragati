@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.pragati{
+    color: yellow;
+}
+
+.logo_img img{
+    height: 80px;
+    width: 80px;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav_mid{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    position: relative;
+    right: 65px;
+}
+
+.home a, .contact a, .help a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home a:hover{
+    background-color: white;
+    color: rgb(18, 121, 18);
+    height: max-content;
+    border-radius: 10px;
+    width: 50px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.services a:hover{
+    background-color: white;
+    color: rgb(18, 121, 18);
+    height: max-content;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contact a:hover{
+    background-color: white;
+    color: rgb(18, 121, 18);
+    height: max-content;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.help a:hover{
+    text-align: center;
+    transition: 0.2s;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    color: rgb(18, 121, 18);
+    height: max-content;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav_right{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+/* .sign_in a:hover{
+    background-color: white;
+    color: rgb(18, 121, 18);
+    border-radius: 10px;
+    font-weight: bold;
+} */
+
+.sign_in{
+    border: 2px solid white;
+    padding: 5px  5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: green;
+}
+
+.sign_in a{
+    text-decoration: none;
+    color: white;
+}
+
+.main_page img{
+    height: 250px;
+    border-radius: 15px;
+    margin: 22px;
+}
+
+.main_page{
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-left: 60px;
+    background-color: rgb(45, 169, 45);
+}
+
+.main_page_2{
+    margin-left: 255px;
+}
+
+.drop_content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .drop_content {
+    display: block;
+}
+
+.dropdown:hover .services {
+    background-color: #3e8e41;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.services{
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border: none;
+}

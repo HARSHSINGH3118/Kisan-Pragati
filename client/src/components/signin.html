@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/client/public/css/navbar.css">
+    <link rel="stylesheet" href="/client/public/css/signin.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav_left">
+            <div class="logo_img"><img src="/client/public/assets/farmer_logo.png" alt=""></div>
+            <div class="title">KISAN <span class="pragati">PRAGATI</span></div>
+        </div>
+        <div class="nav_mid">
+            <div class="home"><a href="/client/index.html">Home</a></div>
+            <div class="dropdown">
+                <button class="services">Services</button>
+                <div class="drop_content">
+                    <a href="./organic.html">Organic Farming</a>
+                    <a href="./cattle.html">Animal Husbandry</a>
+                </div>
+            </div>
+
+            <div class="contact"><a href="">Contact</a></div>
+            <div class="help"><a href="">Help</a></div>
+        </div>
+        <div class="nav_right">
+            <button class="sign_in" ><a href="">Log Out</a></button>
+        </div>
+    </div>
+
+    <div class="sign_in_pop">
+        <form>
+            <div class="name">
+                <label for="email">Email Id: </label><br>
+                <input type="text" id="email" name="email"><br>
+            </div>
+            
+            <div class="password">
+                <label for="pass">Password:</label><br>
+                <input type="text" id="pass" name="pass">
+            </div>
+            
+            <button class="log_in">Log in</button>
+
+            <div class="sign_up">
+                <div class="forgot">Forgot Password?</div>
+                <button class="sign_up_btn"><a href="./signup.html">Sign Up</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
