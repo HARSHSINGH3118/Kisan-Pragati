@@ -72,3 +72,25 @@
     align-items: center;
     padding: 8px;
 }
+
+.git_mid img{
+    height: 38px;
+}
+
+.linked_mid img{
+    height: 39px;
+}
+
+.insta_mid img{
+    height: 45px;
+}
+
+.foot_mid{
+    padding-top: 100px;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
