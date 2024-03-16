@@ -3,7 +3,7 @@ $(".owl-theme").owlCarousel({
     loop: true,
     nav: false,
     dots: false,
-    margin:300,
+    margin:150,
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
@@ -22,7 +22,7 @@ $(".owl-theme").owlCarousel({
   
   const sr = ScrollReveal({
     origin: "top",
-    distance: "60px",
+    distance: "40px",
     duration: 2500,
     delay: 400,
   });
