@@ -83,14 +83,77 @@
 
 .insta_mid img{
     height: 45px;
+    position: relative;
+    right: 2px;
 }
 
 .foot_mid{
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .github{
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-bottom: 10px;
 }
+
+.link_details a{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+#insta_details{
+    position: relative;
+    right: 5px;
+}
+
+.box {
+    background-color: yellow;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+  }
+
+  .box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }
+
+ .box img{
+    height: 230px;
+    width: 400px;
+    border-radius: 10px;
+ }
+
+  .box{
+    background-color: yellow;
+    margin-top: 40px;
+  }
+  
+  .box h2 {
+    font-size: 45px;
+    color: black;
+    
+  }
+
+  .content_page{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
