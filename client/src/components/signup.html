@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/client/public/css/navbar.css">
+    <link rel="stylesheet" href="/client/public/css/signup.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav_left">
+            <div class="logo_img"><img src="/client/public/assets/farmer_logo.png" alt=""></div>
+            <div class="title">KISAN <span class="pragati">PRAGATI</span></div>
+        </div>
+        <div class="nav_mid">
+            <div class="home"><a href="/client/index.html">Home</a></div>
+            <div class="dropdown">
+                <button class="services">Services</button>
+                <div class="drop_content">
+                    <a href="./organic.html">Organic Farming</a>
+                    <a href="./cattle.html">Animal Husbandry</a>
+                </div>
+            </div>
+
+            <div class="contact"><a href="">Contact</a></div>
+            <div class="help"><a href="./faq.html">Help</a></div>
+        </div>
+
+        <div class="nav_right">
+            <button class="sign_in" ><a href="">Log Out</a></button>
+        </div>
+        </div>
+
+        <div class="sign_in_pop">
+            <form>
+
+                <div class="main_name">
+                    <label for="fname">Name: </label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+
+                <div class="name">
+                    <label for="email">Email Id: </label><br>
+                    <input type="text" id="email" name="email"><br>
+                </div>
+
+                <div class="contact_tel">
+                    <label for="contact_tel">Contact: </label><br>
+                    <input type="tel" id="contact_tel" name="contact_tel"><br>
+                </div>
+                
+                <div class="password">
+                    <label for="pass">Create Password:</label><br>
+                    <input type="text" id="pass" name="pass">
+                </div>
+
+                <div class="choose_role">
+                    <label for="role">Choose Role:</label>
+                    <select name="role" id="role">
+                    <option value="farmer">Farmer</option>
+                    <option value="supplier">Supplier</option>
+                    <option value="customer">Costumer</option>
+                    </select>
+                </div>
+                
+                <button class="log_in">Sign Up</button>
+                
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

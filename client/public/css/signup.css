@@ -1,0 +1,53 @@
+body{
+    background-image: url(/client/public/assets/village_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    width: 400px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 590px;
+    top: 200px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.name, .password, .main_name, .contact_tel, .choose_role{
+    display: flex;
+    padding: 10px;
+}
+
+.main_name{
+    gap: 56px;
+}
+
+.name{
+    gap: 46px;
+}
+
+.contact_tel{
+    gap: 47px;
+}
+
+.password{
+    gap: 8px;
+}
+
+.choose_role{
+    gap: 50px;
+}
+
+.log_in{
+    position: relative;
+    left: 130px;
+    margin-top: 20px;
+    height: 25px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
