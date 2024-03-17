@@ -22,7 +22,7 @@
 .org_right {
   float: right;
   position: relative;
-  left: 120px;
+  left: 100px;
   z-index: 1; /* Adjusting z-index */
 }
 
@@ -47,14 +47,17 @@
   font-weight: 400;
 }
 
-.org_demo {
-  border: 2px solid;
-  padding: 3px;
-  font-size: 20px;
-  border-radius: 0.5rem;
-}
-
+.org_demo,
 .signup {
   border: 2px solid;
   padding: 3px;
+  font-size: 25px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.org_demo:hover,
+.signup:hover {
+  background-color: yellow;
 }
