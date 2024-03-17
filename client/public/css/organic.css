@@ -6,7 +6,7 @@
 }
 
 .org_main {
-  background-color: #f4f3ec;
+  background-color: #f7f7ef;
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
@@ -60,4 +60,68 @@
 .org_demo:hover,
 .signup:hover {
   background-color: yellow;
+}
+
+.wave {
+  height: 50px;
+  position: relative;
+  background: linear-gradient(90deg, #f1eede 0%, #a5afb7 100%);
+}
+
+/* Wave text css */
+.wave {
+  color: rgb(8, 47, 8);
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+/* */
+
+.wave::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    #f7f7ef 13px
+  );
+}
+.wave::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(
+    circle at 10px 15px,
+    #f7f7ef 12px,
+    transparent 13px
+  );
+}
+
+.features {
+  background-color: #ffffff;
+  color: rgb(3, 56, 3);
+  font-family: "Rubik Gemstones", system-ui;
+  padding: 100px;
+  font-size: 70px;
+}
+
+.ft_text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
 }
