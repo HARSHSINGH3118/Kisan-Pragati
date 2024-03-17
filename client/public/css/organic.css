@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.org_main {
+  background-color: #f4f3ec;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.org_right img {
+  width: 650px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adding shadow */
+}
+
+.org_right {
+  float: right;
+  position: relative;
+  left: 120px;
+  z-index: 1; /* Adjusting z-index */
+}
+
+.org_intro {
+  font-size: 65px;
+  font-weight: 500;
+  color: rgb(3, 56, 3);
+  font-family: "Rubik Gemstones", system-ui;
+  padding-top: 100px;
+}
+
+.org_button {
+  display: flex;
+  gap: 50px;
+  padding-top: 40px;
+}
