@@ -167,14 +167,14 @@
   word-spacing: 2px;
 }
 
-.wave {
+.wave_1 {
   height: 50px;
   position: relative;
   background: linear-gradient(90deg, #2d681d 0%, #b8ffbdb0 100%);
 }
 
 /* Wave text css */
-.wave {
+.wave_1 {
   color: rgb(8, 47, 8);
   text-align: center;
   font-weight: bold;
@@ -185,7 +185,7 @@
 }
 /* */
 
-.wave::before {
+.wave_1::before {
   content: "";
   position: absolute;
   left: 0;
@@ -200,7 +200,7 @@
     #f7f7ef 13px
   );
 }
-.wave::after {
+.wave_1::after {
   content: "";
   position: absolute;
   left: 0;
