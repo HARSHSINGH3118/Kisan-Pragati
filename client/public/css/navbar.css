@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .navbar{
     color: white;
     font-family: "Poppins", sans-serif;
@@ -54,9 +56,9 @@
     transition: 0.2s;
 }
 
+
 .services a:hover{
-    background-color: white;
-    color: rgb(18, 121, 18);
+    color: yellow;
     height: max-content;
     border-radius: 10px;
     font-weight: bold;
@@ -112,6 +114,10 @@
 .sign_in a{
     text-decoration: none;
     color: white;
+}
+
+.sign_in a:hover{
+    color: yellow;
 }
 
 .drop_content a:hover {
