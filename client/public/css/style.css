@@ -195,6 +195,11 @@ body{
   overflow: hidden;
 }  */
 
-.page_1_left{
-  color: yellow;
+.page_1_heading{
+  color: white;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 80px;
+  padding: 90px;
+  background-color: none;
 }
+
