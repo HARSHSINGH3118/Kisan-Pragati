@@ -51,7 +51,7 @@
 .signup {
   border: 2px solid;
   padding: 3px;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: bold;
@@ -124,4 +124,42 @@
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   padding-top: 20px;
+}
+
+.fa-solid {
+  font-size: 50px;
+}
+
+.org_details {
+  padding-top: 70px;
+}
+
+.org_details_top {
+  display: flex;
+  gap: 250px;
+}
+
+.org_heading {
+  color: black;
+  font-size: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.org_explain {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  color: black;
+}
+
+.org_details_bottom {
+  padding-top: 20px;
+  display: flex;
+  gap: 256px;
+}
+
+.shift {
+  padding-right: 52px;
 }
