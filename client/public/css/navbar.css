@@ -46,8 +46,7 @@
 
 
 .home a:hover{
-    background-color: white;
-    color: rgb(18, 121, 18);
+    color: yellow;
     height: max-content;
     border-radius: 10px;
     width: 50px;
@@ -68,13 +67,11 @@
 }
 
 .contact a:hover{
-    background-color: white;
-    color: rgb(18, 121, 18);
+   color: yellow;
     height: max-content;
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
-    transition: 0.2s;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -84,8 +81,7 @@
     transition: 0.2s;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: white;
-    color: rgb(18, 121, 18);
+    color: yellow;
     height: max-content;
     border-radius: 10px;
     font-weight: bold;
@@ -117,8 +113,6 @@
     text-decoration: none;
     color: white;
 }
-
-
 
 .drop_content a:hover {
     background-color: #ddd;
@@ -163,3 +157,16 @@
     font-size: 17px;
     border: none;
 }
+
+.drop_content {
+    width: 220px;
+  }
+  
+  .drop_content a:not(:hover) {
+    background-color: white; 
+  }
+  
+  .drop_content a:hover{
+    background-color: yellow;
+   }
+  
