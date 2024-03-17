@@ -13,6 +13,14 @@
   border-radius: 50px;
 }
 
+body{
+  background-image: url(/client/public/assets/bg_green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 
 /* .main_page img {
   height: 250px;
@@ -50,7 +58,7 @@
 
 /* test end */
 
-.main_page {
+/* .main_page {
   padding-top: 7px;
   padding-bottom: 6px;
   padding-left: 60px;
@@ -185,4 +193,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-} */
+}  */
+
+.page_1_left{
+  color: yellow;
+}
