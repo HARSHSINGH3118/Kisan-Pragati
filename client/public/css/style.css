@@ -13,52 +13,13 @@
   border-radius: 50px;
 }
 
-body{
+.page_1 {
   background-image: url(/client/public/assets/bg_green.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-
-/* .main_page img {
-  height: 250px;
-  border-radius: 15px;
-  margin: 22px;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes popin {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes popout {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.main_page img {
-  animation: popin 2s ease-out;
-}
-
-/* test start */
-
-/* test end */
-
-/* .main_page {
+.main_page {
   padding-top: 7px;
   padding-bottom: 6px;
   padding-left: 60px;
@@ -70,7 +31,7 @@ body{
 }
 
 .page_2 {
-  background-color: rgba(176, 255, 176, 0.422);
+  background-color: #b0ffb06c;
   padding-top: 60px;
 }
 
@@ -83,32 +44,25 @@ body{
   font-size: 50px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: 35px;
-}
-
-.foot_left img {
-  height: 350px;
-}
-
-.foot_right img {
-  height: 380px;
-  padding-right: 15px;
-  position: relative;
-  top: 6px;
-}
-
-.copy {
-  background-color: rgba(45, 169, 45, 0.942);
+.copyright {
+  background-color: green;
   color: white;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  color: white;
+  padding: 50px;
+  padding-bottom: 87px;
 }
 
 .git_mid img {
@@ -132,7 +86,7 @@ body{
 .github {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 8px;
   padding-bottom: 10px;
 }
 
@@ -187,19 +141,116 @@ body{
 }
 
 .content_page {
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}  */
+}
 
-.page_1_heading{
+.page_1_heading {
   color: white;
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 80px;
-  padding: 90px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
   background-color: none;
 }
 
+.page_1_content {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  word-spacing: 2px;
+}
+
+.wave {
+  height: 50px;
+  position: relative;
+  background: linear-gradient(90deg, #2d681d 0%, #b8ffbdb0 100%);
+}
+
+/* Wave text css */
+.wave {
+  color: rgb(8, 47, 8);
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+/* */
+
+.wave::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    #f7f7ef 13px
+  );
+}
+.wave::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(
+    circle at 10px 15px,
+    #f7f7ef 12px,
+    transparent 13px
+  );
+}
+
+.box-1,
+.box-2 {
+  display: flex;
+}
+
+.footer_content {
+  background-image: url(/client/public/assets/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_mid_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_mid {
+  padding-top: 210px;
+}
+
+.github {
+  margin-right: 50px;
+}
+
+.link_details a {
+  color: white;
+}
+
+.footer_left img,
+.footer_right img {
+  height: 260px;
+}
+
+.footer_right img,
+.footer_left img {
+  position: relative;
+  top: 49px;
+}
