@@ -2,19 +2,25 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   background-color: #f4f4f4;
   background-image: url("/client/public/assets/bg_green.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
+=======
+  background-color: rgb(232, 255, 232);
+>>>>>>> 48d448112f77858f1beea75b7d83c0fc5899ad9c
 }
 .container {
   max-width: 600px;
   margin: 20px auto;
   background-color: #fff;
   padding: 20px;
+  margin-top: 80px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(5, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
 }
 h1 {
   text-align: center;
@@ -39,7 +45,9 @@ input[type="submit"] {
   background-color: #4caf50;
   color: #fff;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: yellowgreen;
+  color: black;
 }
