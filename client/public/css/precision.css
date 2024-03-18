@@ -1,0 +1,91 @@
+.precision_body {
+  background-image: url(/client/public/assets/foliage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 611px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.prec_card_1,
+.prec_card_2 {
+  background-color: rgba(255, 255, 48, 0.676);
+  width: 48vh;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.prec_card_2 {
+  background-color: rgba(255, 255, 26, 0.692);
+}
+
+.prec_head {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Love Ya Like A Sister", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.prec_img_1 img,
+.prec_img_2 img {
+  border-radius: 10px;
+  height: 170px;
+}
+
+.prec_img_1,
+.prec_img_2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.prec_text {
+  font-family: "Poppins", sans-serif;
+}
+
+.prec_detail {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.prec_try_1 {
+  background-color: black;
+  color: rgb(255, 255, 48);
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.prec_try_2 {
+  background-color: black;
+  color: rgb(255, 255, 48);
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.prec_try_1 a,
+.prec_try_2 a {
+  color: rgb(255, 255, 48);
+  text-decoration: none;
+}
+
+.prec_card_1,
+.prec_card_2 {
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s, z-index 0.3s;
+}
+
+.prec_card_1:hover,
+.prec_card_2:hover {
+  z-index: 1;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(219, 255, 146, 0.571),
+    0 6px 20px rgba(219, 255, 146, 0.571);
+}
