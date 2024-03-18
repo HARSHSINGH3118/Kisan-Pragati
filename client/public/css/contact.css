@@ -2,15 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  background-color: #f4f4f4;
-  background-image: url("/client/public/assets/bg_green.jpg");
-
-  background-repeat: no-repeat;
-  background-size: cover;
-=======
-  background-color: rgb(232, 255, 232);
->>>>>>> 48d448112f77858f1beea75b7d83c0fc5899ad9c
 }
 .container {
   max-width: 600px;
