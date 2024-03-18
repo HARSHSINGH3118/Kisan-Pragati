@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  background-image: url("/client/public/assets/bg_green.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   max-width: 600px;
