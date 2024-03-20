@@ -12,7 +12,7 @@
   background: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(180, 255, 180);
+  background-color:  rgb(180, 255, 180);
   width: 10px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 50px;
@@ -72,7 +72,7 @@ h5 {
 }
 
 #livestock {
-  background-color: #b0ffb06c;
+  background-color: rgba(176, 255, 176, 0.422);
   padding-top: 50px;
 }
 
@@ -85,12 +85,12 @@ h5 {
   font-size: 35px;
 }
 
-.owl-carousel {
+.owl-carousel{
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.card_buy {
+.card_buy{
   background-color: rgba(0, 0, 0, 0.752);
   height: 390px;
   border-radius: 10px;
@@ -102,20 +102,22 @@ h5 {
   font-family: "Poppins", sans-serif;
 }
 
-.card_buy img {
+
+.card_buy img{
   height: 250px;
   width: 270px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+ 
 }
 
-.text_main {
+.text_main{
   display: flex;
   justify-content: space-around;
   padding-top: 15px;
 }
 
-.spec {
+.spec{
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
@@ -123,7 +125,7 @@ h5 {
   padding-top: 10px;
 }
 
-.buy a {
+.buy a{
   background-color: yellow;
   color: black;
   text-decoration: none;
@@ -131,7 +133,8 @@ h5 {
   padding: 6px;
 }
 
-.buy {
+.buy{
   margin-top: 14px;
   margin-left: 25px;
+  
 }
