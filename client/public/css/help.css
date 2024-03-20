@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #724ae8;
+  background: #198754;
   transition: all 0.2s ease;
 }
 body.show-chatbot .chatbot-toggler {
@@ -44,7 +44,7 @@ body.show-chatbot .chatbot-toggler span:last-child {
   right: 35px;
   bottom: 90px;
   width: 420px;
-  background: #fff;
+  background: white;
   border-radius: 15px;
   overflow: hidden;
   opacity: 0;
@@ -65,7 +65,7 @@ body.show-chatbot .chatbot {
   position: relative;
   text-align: center;
   color: #fff;
-  background: #724ae8;
+  background: #198754;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 .chatbot header span {
@@ -88,7 +88,7 @@ header h2 {
   width: 6px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
-  background: #fff;
+  background: transparent;
   border-radius: 25px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
@@ -111,7 +111,7 @@ header h2 {
   text-align: center;
   line-height: 32px;
   align-self: flex-end;
-  background: #724ae8;
+  background: #198754;
   border-radius: 4px;
   margin: 0 10px 7px 0;
 }
@@ -191,4 +191,72 @@ header h2 {
   .chatbot header span {
     display: block;
   }
+}
+
+.accordian {
+  background-color: #b0ffb06c;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgb(red, green, blue);
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 16px;
+  transition: transform 0.2s;
+}
+
+.icon.active {
+  transform: rotate(-180);
+}
+
+.answer {
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
+
+.answer.active {
+  max-height: 200px;
+}
+
+.accordion {
+  max-width: 1000px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  position: relative;
+  left: 50px;
+}
+
+body {
+  background-image: url(/client/public/assets/help_bg.jpeg);
+  background-size: cover;
+}
+
+.help_heading {
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(112, 90, 2);
+  padding-bottom: 20px;
+}
+
+.chatboat_ai {
+  margin-top: 50px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  font-size: 45px;
+  background-color: #198754;
+  border-radius: 0.5rem;
+  padding-left: 10px;
 }
