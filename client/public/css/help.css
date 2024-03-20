@@ -44,7 +44,7 @@ body.show-chatbot .chatbot-toggler span:last-child {
   right: 35px;
   bottom: 90px;
   width: 420px;
-  background: white;
+  background: #fff;
   border-radius: 15px;
   overflow: hidden;
   opacity: 0;
@@ -88,7 +88,7 @@ header h2 {
   width: 6px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
-  background: transparent;
+  background: #fff;
   border-radius: 25px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
@@ -122,7 +122,7 @@ header h2 {
   max-width: 75%;
   color: #fff;
   font-size: 0.95rem;
-  background: #724ae8;
+  background: #198754;
 }
 .chatbox .incoming p {
   border-radius: 10px 10px 10px 0;
@@ -157,7 +157,7 @@ header h2 {
 }
 .chat-input span {
   align-self: flex-end;
-  color: #724ae8;
+  color: #198754;
   cursor: pointer;
   height: 55px;
   display: flex;
@@ -191,41 +191,6 @@ header h2 {
   .chatbot header span {
     display: block;
   }
-}
-
-.accordian {
-  background-color: #b0ffb06c;
-  padding: 4px 16px;
-  margin-bottom: 16px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 5px rgb(red, green, blue);
-  cursor: pointer;
-}
-
-.question {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.icon {
-  margin-right: 16px;
-  transition: transform 0.2s;
-}
-
-.icon.active {
-  transform: rotate(-180);
-}
-
-.answer {
-  color: #666;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s;
-}
-
-.answer.active {
-  max-height: 200px;
 }
 
 .accordion {
