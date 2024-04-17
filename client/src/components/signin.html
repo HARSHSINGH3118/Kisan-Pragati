@@ -46,14 +46,27 @@
                 <input type="text" id="pass" name="pass">
             </div>
 
-            <button class="log_in">Log in</button>
+            <div class="choose_role">
+                <label for="role">Choose Role:</label>
+                <select name="role" id="role">
+                    <option value="" disabled selected>Choose Role</option>
+                    <option value="farmer">Farmer</option>
+                    <option value="supplier">Supplier</option>
+                    <option value="customer">Customer</option>
+                </select>
+            </div>
+        </form>
+        <div class="sign_bottom"><button class="log_in" onclick="signUp()">Log in</button>
 
             <div class="sign_up">
                 <div class="forgot">Forgot Password?</div>
                 <button class="sign_up_btn"><a href="./signup.html">Sign Up</a></button>
             </div>
-        </form>
+        </div>
+
     </div>
+
+    <script src="/client/public/js/signup.js"></script>
 </body>
 
 </html>

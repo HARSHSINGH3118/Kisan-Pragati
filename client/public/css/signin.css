@@ -1,55 +1,74 @@
-body{
-    background-image: url(/client/public/assets/village.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(/client/public/assets/village.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-form{
-    width: 400px;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    left: 600px;
-    top: 220px;
-    font-size: large;
-    font-weight: bold;
+form {
+  width: 400px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 600px;
+  top: 220px;
+  font-size: large;
+  font-weight: bold;
 }
 
-.name, .password{
-    display: flex;
-    padding: 10px;
+.name,
+.password {
+  display: flex;
+  padding: 10px;
 }
 
-.name{
-    gap: 22px;
+.name {
+  gap: 22px;
 }
 
-.password{
-    gap: 14px;
+.password {
+  gap: 14px;
 }
 
-.log_in{
-    position: relative;
-    left: 130px;
-    margin-top: 20px;
+.forgot {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8px;
 }
 
-.sign_up{
-    display: flex;
-    gap: 68px;
-    margin-top: 20px;
+.log_in {
+  position: relative;
+  left: 130px;
+  margin-top: 20px;
 }
 
-.log_in, .sign_up_btn{
-    font-size: 18px;
-    height: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: black;
-    color: white;
+.sign_up {
+  display: flex;
+  gap: 68px;
+  margin-top: 20px;
 }
 
-.sign_up_btn a{
-    text-decoration: none;
-    color: white;
+.log_in,
+.sign_up_btn {
+  font-size: 18px;
+  height: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.sign_up_btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.choose_role {
+  margin-left: 8px;
+  margin-top: 9px;
+}
+
+.sign_bottom {
+  position: relative;
+  top: 230px;
+  padding-left: 610px;
 }
