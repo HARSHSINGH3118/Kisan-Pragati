@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <div class="navbar">
         <div class="nav_left">
             <div class="logo_img"><img src="/client/public/assets/farmer_logo.png" alt=""></div>
@@ -61,18 +62,20 @@
             <div class="choose_role">
                 <label for="role">Choose Role:</label>
                 <select name="role" id="role">
+                    <option value="" disabled selected>Choose Role</option>
                     <option value="farmer">Farmer</option>
                     <option value="supplier">Supplier</option>
-                    <option value="customer">Costumer</option>
+                    <option value="customer">Customer</option>
                 </select>
             </div>
 
-            <button class="log_in">Sign Up</button>
-
         </form>
-    </div>
 
-    </div>
+        <button class="log_in" onclick="signUp()">Sign Up</button>
+
+
+        <script src="/client/public/js/signup.js"></script>
+
 </body>
 
 </html>

@@ -46,12 +46,12 @@ form {
 
 .log_in {
   position: relative;
-  left: 130px;
-  margin-top: 20px;
-  height: 25px;
+  left: 750px;
+  top: 210px;
   background-color: black;
   cursor: pointer;
   color: white;
   font-size: 18px;
   font-weight: bold;
+  padding: 7px;
 }
