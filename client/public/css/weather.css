@@ -14,7 +14,7 @@ body {
   max-width: 470px;
   background: linear-gradient(140deg, #7dce7c, #7b6fd8);
   color: #fff;
-  margin: 100px auto 0;
+  margin: 10px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -126,4 +126,28 @@ body {
     flex-direction: column;
     margin-top: 30px;
   }
+}
+
+.Marque {
+  padding-top: 30px;
+  font-size: larger;
+  text-shadow: 2px 2px 4px #81e0e3;
+}
+.run_text {
+  color: red;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.run_text {
+  animation: blink 1s linear infinite;
 }
