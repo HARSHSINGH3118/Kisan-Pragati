@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const BuyerSchema = new mongoose.Schema(
+const SupplierSchema = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -16,7 +16,7 @@ const BuyerSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      default: "farmer",
+      default: "supplier",
     },
     date: {
       type: Date,
@@ -34,4 +34,4 @@ const BuyerSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Buyer", BuyerSchema);
+module.exports = mongoose.model("Supplier", SupplierSchema);
