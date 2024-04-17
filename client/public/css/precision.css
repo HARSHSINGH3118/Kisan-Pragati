@@ -1,5 +1,6 @@
 .precision_body {
   background-image: url(/client/public/assets/foliage.avif);
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   height: 611px;
