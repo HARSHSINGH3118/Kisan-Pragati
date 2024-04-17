@@ -151,3 +151,6 @@ body {
 .run_text {
   animation: blink 1s linear infinite;
 }
+#mp3 {
+  display: none;
+}
