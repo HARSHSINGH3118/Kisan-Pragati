@@ -8,6 +8,7 @@ exports.addItem = async (req, res) => {
     amount,
     description,
     date,
+    availableForBuyers: true,
   });
 
   try {

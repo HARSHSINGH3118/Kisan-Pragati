@@ -4,6 +4,7 @@ const {
   getSupplies,
   deleteSupply,
 } = require("../controllers/supplier");
+const { getAllItems } = require("../controllers/buyer");
 
 const router = require("express").Router();
 
@@ -14,6 +15,8 @@ router.delete("/delete-item/:id", deleteItem);
 router.post("/add-supply", addSupply);
 router.get("/get-supplies", getSupplies);
 router.delete("/delete-supply/:id", deleteSupply);
+
+router.get("/get-all-items", getAllItems);
 
 router.get("/", (req, res) => {
   res.send("Hello");
