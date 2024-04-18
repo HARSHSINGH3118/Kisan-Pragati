@@ -43,3 +43,39 @@ input[type="submit"]:hover {
   background-color: yellowgreen;
   color: black;
 }
+
+.contact_page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_page img {
+  width: 300px;
+  height: 300px;
+  border-bottom-left-radius: 23%;
+  border-bottom-right-radius: 2%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 23%;
+  border: 2px solid rgba(28, 31, 31, 0.932);
+}
+
+.img_left img {
+  margin-top: 100px;
+  margin-left: 50px;
+  transition: transform 0.5s ease;
+}
+
+.img_right img {
+  margin-top: 100px;
+  margin-right: 50px;
+  transition: transform 0.5s ease;
+}
+
+.img_left img:hover {
+  transform: scale(1.1);
+  z-index: 1; /* Apply z-index to the parent container if needed */
+}
+.img_right img:hover {
+  transform: scale(1.08);
+  z-index: 1; /* Apply z-index to the parent container if needed */
+}
