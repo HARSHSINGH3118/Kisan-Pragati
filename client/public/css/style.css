@@ -103,12 +103,7 @@
 
 .box {
   position: relative;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Adjust opacity for the glass effect */
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   display: flex;
   align-items: center;
@@ -118,13 +113,16 @@
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Hide overflow content */
+  overflow: hidden;
   transform: translateX(400%);
   transition: transform 0.4s ease, background-color 0.4s ease; /* Smooth transitions */
 }
 
 .box::before {
-  content: "Think Help";
+  content: "Kisan Pragati";
+  padding: 20px;
+  font-weight: 600;
+  font-size: large;
   position: absolute;
   color: #111210;
   font-weight: bold;
@@ -133,14 +131,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(206, 195, 202, 0.3); /* Overlay color */
+  background-color: rgba(250, 248, 187, 0.502);
   opacity: 0;
-  transition: opacity 0.4s ease; /* Smooth transition for opacity */
+  transition: opacity 0.4s ease;
 }
 
 .box::after {
-  content: "Think Kishan Pragti";
+  content: "Farmers' Support";
   position: absolute;
+  font-weight: 600;
+  font-size: 20px;
   color: #141313;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
@@ -148,19 +148,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity 0.4s ease; /* Smooth transition for opacity */
+  transition: opacity 0.4s ease;
 }
 
 .box:hover {
-  transform: translateX(0); /* Move box to original position on hover */
+  transform: translateX(0);
 }
 
 .box:hover::before {
-  opacity: 1; /* Show overlay on hover */
+  opacity: 1;
 }
 
 .box:hover::after {
-  opacity: 1; /* Show text on hover */
+  opacity: 1;
 }
 
 .box:nth-of-type(even) {

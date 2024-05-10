@@ -23,12 +23,16 @@ const SupplierSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-
     description: {
       type: String,
       required: true,
       maxLength: 20,
       trim: true,
+    },
+
+    availableForFarmers: {
+      type: Boolean,
+      default: true,
     },
   },
   { timestamps: true }

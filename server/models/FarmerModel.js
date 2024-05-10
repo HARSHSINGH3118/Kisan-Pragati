@@ -1,3 +1,4 @@
+// farmerModel.js
 const mongoose = require("mongoose");
 
 const FarmerSchema = new mongoose.Schema({
@@ -28,11 +29,18 @@ const FarmerSchema = new mongoose.Schema({
     maxLength: 20,
     trim: true,
   },
-
   availableForBuyers: {
     type: Boolean,
     default: true,
   },
+
+  supplierSupplies: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Supplier",
+      required: true,
+    },
+  ],
 });
 
 module.exports = mongoose.model("Farmer", FarmerSchema);

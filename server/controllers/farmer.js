@@ -1,4 +1,5 @@
 const FarmerSchema = require("../models/FarmerModel");
+const SupplierSchema = require("../models/SupplierModel");
 
 exports.addItem = async (req, res) => {
   const { title, amount, description, date } = req.body;
@@ -30,9 +31,16 @@ exports.addItem = async (req, res) => {
 
 exports.getItems = async (req, res) => {
   try {
-    const items = await FarmerSchema.find().sort({ createdAt: -1 });
-    res.status(200).json(items);
+    const farmerItems = await FarmerSchema.find({ type: "farmer" }).sort({
+      createdAt: -1,
+    });
+    const supplierItems = await SupplierSchema.find({ type: "supplier" }).sort({
+      createdAt: -1,
+    });
+
+    res.status(200).json({ farmerItems, supplierItems });
   } catch (error) {
+    console.error(error);
     res.status(500).json({ message: "Server Error" });
   }
 };

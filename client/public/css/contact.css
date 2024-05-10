@@ -73,9 +73,9 @@ input[type="submit"]:hover {
 
 .img_left img:hover {
   transform: scale(1.1);
-  z-index: 1; /* Apply z-index to the parent container if needed */
+  z-index: 1;
 }
 .img_right img:hover {
   transform: scale(1.08);
-  z-index: 1; /* Apply z-index to the parent container if needed */
+  z-index: 1;
 }
