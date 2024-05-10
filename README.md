@@ -18,6 +18,7 @@ npm start
 * Intuitive and easy-to-use interface for all users.
 * Secure account creation and management for farmers, buyers, and suppliers.
 
+
 ![Screenshot (525)](https://github.com/khushi505/Kisan-Pragati/assets/121372231/bb1c6d39-062a-4b88-99da-ec223248c6c6)
 ![Screenshot (526)](https://github.com/khushi505/Kisan-Pragati/assets/121372231/ad161caf-a77d-4010-a958-e89db3e7c37c)
 ![Screenshot (523)](https://github.com/khushi505/Kisan-Pragati/assets/121372231/c9779284-d4df-42ef-87b9-1cacb19c76a0)
