@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 255, 180);
+  width: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
 body {
   background: #deffde;
 }
